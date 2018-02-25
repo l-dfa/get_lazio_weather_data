@@ -55,8 +55,9 @@ python -m venv venv
 source venv/bin/activate           # in windows: venv\scripts\activate
 pip install requests
 pip install lxml
-...
-
+curl https://github.com/l-dfa/get_lazio_weather_data/raw/master/config.py
+curl https://github.com/l-dfa/get_lazio_weather_data/raw/master/gwd.py
+curl https://github.com/l-dfa/get_lazio_weather_data/raw/master/g2wd.py
 ```
 
 Some examples about how to use it.
